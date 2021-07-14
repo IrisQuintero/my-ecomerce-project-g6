@@ -28,7 +28,7 @@ useEffect(()=>{
           <p>{producto.description}</p>
           <p>${producto.price}.00</p>
           <p>{producto.category}</p>
-          <img src={producto.image} alt = "photo"></img>
+          <img src={producto.image} alt = "test"></img>
           {producto.isActive ? <button>Compra</button> : <p>Agotado</p>}
         </div>
       </div>
