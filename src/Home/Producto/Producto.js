@@ -12,7 +12,7 @@ function Producto(props){
         <div className = "CardsContainer">
             <div className = "CardsContainer-Cards">
             <Link to = {`/detalle-producto/${props.producto._id}`}>
-                <img src = {props.producto.image}></img>
+                <img src = {props.producto.image}alt = "image"></img>
             </Link>
             <p>{props.producto.product_name} </p>
             <p>${props.producto.price}.00</p>

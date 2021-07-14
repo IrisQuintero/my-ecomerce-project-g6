@@ -1,4 +1,4 @@
-import firebase from "firebase/app";
+//import firebase from "firebase/app";
 import Home from "./Home/Home";
 // import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";

@@ -12,7 +12,7 @@ import "./NavBar.css";
         return(
             <header className = "NavBar">
               <div className = "NavBar-Logo">
-                <img></img>
+                <img alt = "Logo"></img>
              </div>
                <ul>
         {isSignedIn && <p><span>Bienvenido {user.displayName}</span></p>}
