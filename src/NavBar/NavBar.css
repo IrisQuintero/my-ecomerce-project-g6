@@ -1,0 +1,73 @@
+.NavBar{
+    height: 100px;
+    width: 1100px;
+    background-color: greenyellow;
+    border-radius: 25px;
+    margin-left: 100px;
+    /*z-index:2;*/
+
+}
+
+/*.CajaNavegador ul {
+    margin-top: 80px;
+    margin-left:650px;
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    list-style:none ;
+    display: flex;
+    flex-direction: row;
+    
+}*/
+
+.NavBar ul {
+display: flex;
+flex-direction: row;
+margin-left: 600px;
+list-style: none;
+}
+
+.NavBar p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-left:-200px ;
+}
+
+.NavBar span {
+    color: rgb(5, 5, 141)
+}
+
+.NavBar button {
+    border: none;
+    background-color: white;
+}
+/*.CajaNavegador li {
+    margin-top: -100px;
+    margin-left: 140px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}*/
+
+.NavBar li {
+    margin-left: 50px;
+}
+
+.NavBar div {
+    margin-left: 50px;
+
+}
+/*.CajaNavegador > p{
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-left: 50px;
+
+}*/
+
+/*.CajaNavegador img{
+    size: 2px;
+}*/

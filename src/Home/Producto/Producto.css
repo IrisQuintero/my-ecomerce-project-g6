@@ -1,0 +1,48 @@
+.CardsContainer {
+    width: 1100px;
+    height: 1100px;
+    margin-top: -50px;
+    margin-left: -50px;
+    margin-right: -700px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+
+.CardsContainer-Cards {
+    width: 250px;
+    height:400px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -500px;
+    margin: 10px;
+    margin-left: 80px;
+    margin-top:20px;
+    padding: 0px;
+
+}
+
+.CardsContainer-Cards img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.CardsContainer-Cards p {
+    font-size: 18px;
+}
+
+.CardsContainer-Cards button {
+    border: none;
+    background-color: greenyellow;
+}
+
+.CardsContainer-Cards span {
+    color: rgb(5, 5, 141)
+}
