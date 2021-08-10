@@ -13,7 +13,8 @@ function Recomendados() {
   //las dependencias son el arreglo y dentro se le mandan valores
   //si algún valor de la dependencia cambia se vuelve a ejecutar el código.
   useEffect(() => {
-    fetch("https://ecomerce-master.herokuapp.com/api/v1/item")
+    //fetch("https://ecomerce-master.herokuapp.com/api/v1/item")
+    fetch("https://suspicious-edison-c57fe9.netlify.app/.netlify/functions/server/productos")
       .then((response) => response.json())
       .then((data) => {
         setProductos(data);
