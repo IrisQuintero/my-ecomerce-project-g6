@@ -16,7 +16,7 @@ function Recomendados() {
     //fetch("https://ecomerce-master.herokuapp.com/api/v1/item")
     fetch("https://suspicious-edison-c57fe9.netlify.app/.netlify/functions/server/productos")
       .then((response) => response.json())
-      .then((data) => {
+      .then((data) => {console.log(data);
         setProductos(data);
       });
   }, []);

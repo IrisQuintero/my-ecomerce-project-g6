@@ -12,10 +12,10 @@ const sessionConGoogle = () => {
   firebase.auth().signInWithPopup(googleAuthProvider);
 };
 
-const sessionConGithub = () => {
-  const githubAuthProvider = new firebase.auth.GithubAuthProvider();
-  firebase.auth().signInWithPopup(githubAuthProvider);
-};
+//const sessionConGithub = () => {
+//  const githubAuthProvider = new firebase.auth.GithubAuthProvider();
+//  firebase.auth().signInWithPopup(githubAuthProvider);
+//};
 
 const logout = () => {
   firebase
@@ -30,8 +30,8 @@ function Auth(props){
   
   const [carrito, setCarrito] = useState([]);
 
-  const agregarCarrito = (producto) => {
-    setCarrito((prevState) => [...prevState, producto]);
+  const agregarCarrito = (productoIndividual) => {
+    setCarrito((prevState) => [...prevState, productoIndividual]);
     alert("producto agregado a tu carrito");
   };
 
@@ -41,7 +41,7 @@ function Auth(props){
       productoEleminado
     );
     setCarrito((prevState) =>
-      prevState.filter((producto) => producto._id !== productoEleminado._id)
+      prevState.filter((productoIndividual) => productoIndividual._id !== productoEleminado._id)
     );
   };
 
@@ -58,7 +58,7 @@ function Auth(props){
               },
               metodos: {
                 sessionConGoogle,
-                sessionConGithub,
+                //sessionConGithub,
                 logout,
               },
               carrito: carrito,

@@ -12,9 +12,9 @@ function Carrito(){
       <h2>Tus productos</h2>
       <h2>Total: {total} </h2>
       <ul>
-        {carrito.map((producto) => (
+        {carrito.map((productoIndividual) => (
           <li>
-            <Producto producto={producto} carrito={true} />
+            <Producto productoIndividual={productoIndividual} carrito={true} />
           </li>
         ))}
       </ul>
